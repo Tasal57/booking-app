@@ -63,7 +63,7 @@ app.get('/users', async (req, res) => {
 });
 // get a single user by ID
 app.get('/users/:id', async (req, res) => {
-  console.log(`GET /users/:id hit on port ${PORT}, id=${req.params.id}`);
+  
   const { id } = req.params;
 
   try {
